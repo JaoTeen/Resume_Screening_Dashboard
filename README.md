@@ -87,7 +87,7 @@ pip install -r requirements/requirements.txt
 ## ▶️ Run
 
 ```bash
-python resume_screening_gemini.py
+python resume_screening.py
 ```
 
 ---
