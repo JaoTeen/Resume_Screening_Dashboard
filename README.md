@@ -112,7 +112,7 @@ The requirements file was auto-generated from the environment. It includes:
 ### 1. Startup Screen
 
 *Select Resume Source: Folder or Gmail*
-![screenshot\_step1](docs/screenshots/step1_source.png)
+![screenshot\_step1](screenshots/step1_source.png)
 
 ---
 
