@@ -32,13 +32,32 @@ It extracts skills from a job description, parses resumes (PDF/DOCX/TXT), ranks 
 
 ## 🚀 Setup
 
-### 1️⃣ Install Dependencies
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/resume-screening.git
+cd resume-screening
+````
+
+### 2️⃣ Create a Virtual Environment (Recommended)
 
 ```bash
-pip install google-generativeai PyPDF2 python-docx docx2txt scikit-learn openpyxl matplotlib pandas
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
 ```
 
-### 2️⃣ Configure Gemini API
+### 3️⃣ Install Requirements
+
+All dependencies are listed in `requirements/requirements.txt`.
+Install them with:
+
+```bash
+pip install -r requirements/requirements.txt
+```
+
+---
+
+### 4️⃣ Configure Gemini API
 
 * Get your API key from [Google AI Studio](https://aistudio.google.com).
 * Set it as an environment variable:
@@ -54,7 +73,7 @@ pip install google-generativeai PyPDF2 python-docx docx2txt scikit-learn openpyx
   GEMINI_API_KEY = "your_api_key_here"
   ```
 
-### 3️⃣ Gmail Setup (optional)
+### 5️⃣ Gmail Setup (optional)
 
 * In Gmail → **Settings → Forwarding and POP/IMAP → Enable IMAP**
 * Generate an **App Password** (NOT your normal password):
@@ -70,6 +89,21 @@ pip install google-generativeai PyPDF2 python-docx docx2txt scikit-learn openpyx
 ```bash
 python resume_screening_gemini.py
 ```
+
+---
+
+## 📦 Dependencies
+
+The requirements file was auto-generated from the environment. It includes:
+
+* pandas
+* matplotlib
+* google-generativeai
+* docx2txt
+* PyPDF2
+* scikit-learn
+
+(`tkinter` is part of Python’s standard library and doesn’t need to be installed via pip.)
 
 ---
 
@@ -143,5 +177,3 @@ python resume_screening_gemini.py
 MIT – Feel free to fork, modify, and use 🚀
 
 ---
-
-👉 Would you like me to also generate a **`docs/screenshots/` folder structure + placeholders** (empty PNG files with labels) so you can just replace them later with actual screenshots?
