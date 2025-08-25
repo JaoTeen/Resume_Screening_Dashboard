@@ -1,4 +1,4 @@
-# resume_screening_gemini.py
+# resume_screening.py
 # ------------------------------------------------------------
 # Tkinter Resume Screening Dashboard
 #  - Uses Google Gemini for skill extraction from a JD
