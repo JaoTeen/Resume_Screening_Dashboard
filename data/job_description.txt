@@ -1,0 +1,22 @@
+Job Title: Fresher Python Developer
+
+We are looking for a passionate and motivated Python Developer to join our team as a fresher. The ideal candidate should have strong knowledge of Python programming and a good understanding of software development fundamentals.
+
+Key Responsibilities:
+- Write clean, efficient, and maintainable Python code.
+- Assist in building web applications, APIs, and automation scripts.
+- Debug, test, and fix issues in applications.
+- Work with databases such as MySQL, PostgreSQL, or MongoDB.
+- Collaborate with senior developers and contribute to team projects.
+
+Required Skills:
+- Proficiency in Python (basics of OOP, data structures, file handling).
+- Familiarity with libraries such as Pandas, NumPy, Flask or Django (preferred).
+- Understanding of SQL and basic database operations.
+- Knowledge of version control systems (Git).
+- Problem-solving skills and eagerness to learn new technologies.
+
+Eligibility:
+- Bachelor's degree in Computer Science, IT, or related field.
+- Good communication skills.
+- 0-1 years of experience (internships/projects count).
