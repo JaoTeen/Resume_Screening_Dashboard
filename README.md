@@ -119,21 +119,21 @@ The requirements file was auto-generated from the environment. It includes:
 ### 2. Gmail Mode
 
 *Enter Gmail + App Password, choose filters (Unread/Read/Both), Lookback days*
-![screenshot\_step2](docs/screenshots/step2_gmail.png)
+![screenshot\_step2](screenshots/step2_source.png)
 
 ---
 
 ### 3. Job Description Input
 
 *Upload JD (TXT/DOCX) or paste into the textbox*
-![screenshot\_step3](docs/screenshots/step3_jd.png)
+![screenshot\_step3](screenshots/step3_source.png)
 
 ---
 
 ### 4. Skill Extraction & Selection
 
 *Skills extracted by Gemini – confirm or uncheck manually*
-![screenshot\_step4](docs/screenshots/step4_skills.png)
+![screenshot\_step4](screenshots/step4_source.png)
 
 ---
 
@@ -143,7 +143,7 @@ The requirements file was auto-generated from the environment. It includes:
 
 * **Left:** Resume scores distribution
 * **Right:** Skill coverage across candidates
-  ![screenshot\_step5](docs/screenshots/step5_results.png)
+  ![screenshot\_step5](screenshots/step5_source.png)
 
 ---
 
