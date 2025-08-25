@@ -52,7 +52,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # =========================
 
 # Prefer environment variable if set
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAN51YOTvn2TSYraeGXVT4hb1Sjk-5RZ6U")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY")
 if GEMINI_API_KEY and GEMINI_API_KEY != "YOUR_GEMINI_API_KEY":
     genai.configure(api_key=GEMINI_API_KEY)
 
