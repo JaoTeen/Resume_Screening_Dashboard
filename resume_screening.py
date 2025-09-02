@@ -303,7 +303,7 @@ def fetch_resumes_from_gmail(email_user: str,
 
 
 # =========================
-# Tkinter App (minimal changes to your existing flow)
+# Tkinter App 
 # =========================
 
 class ResumeApp:
